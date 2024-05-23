@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Jersey+25+Charted&family=Poetsen+One&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: var(--roxoescuro);
+    color: whitesmoke;
+    font-family: var(--texto-corpo);
+}
+
+:root{
+    --roxoescuro: #10002b;
+    --roxomeioescuro: #240046;
+    --roxoclaro: #5a189a;
+    --roxoclarinho: #9d4edd;
+    --texto-corpo: "Jersey 25 Charted", sans-serif;
+    --texto-titulo: "Poetsen One", sans-serif;
+    
+}
+
+.cabecalho{
+   background-color: var(--roxoclaro);
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   padding: 12px;
+}
+.cabecalho-img{
+width: 10%;  
+border-radius: 60%;  
+}
+.cabecalho-nav__link{
+  text-decoration: none;
+  font-family: var(--texto--titulo);
+  font-size: 24px;
+  color: var(--roxoclarinho);
+  margin-right: 24px
+}
