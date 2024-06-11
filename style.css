@@ -12,10 +12,10 @@ body{
 }
 
 :root{
-    --roxoescuro: #10002b;
-    --roxomeioescuro: #240046;
-    --roxoclaro: #5a189a;
-    --roxoclarinho: #9d4edd;
+    --roxoescuro: #ce6db9;
+    --roxomeioescuro: #db7de4;
+    --roxoclaro: #ec80e7;
+    --roxoclarinho: #000000;
     --texto-corpo: "Jersey 25 Charted", sans-serif;
     --texto-titulo: "Poetsen One", sans-serif;
     
@@ -38,4 +38,32 @@ border-radius: 60%;
   font-size: 24px;
   color: var(--roxoclarinho);
   margin-right: 24px
+}
+.principal-capa{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    gap: 24px;
+    background-image: url(img/fundo.jpg);
+    background-repeat: no-repeat;
+    padding: 24px 12px ;
+}
+.principal-capa__conteudo{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+.principal-capa__titulo{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 32px;
+    color:black;
+    margin-bottom: 12px;
+}
+.principal-capa__texto{
+    font-size: 24px;
+    margin-top: 24px;
+}
+
+.principal-capa__imagem{
+    width: 30%;
 }
