@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Jersey+25+Charted&family=Poetsen+One&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: var(--roxoescuro);
+    color: rgb(0, 0, 0);
+    font-family: var(--texto-corpo);
+}
+
+:root{
+    --roxoescuro: #ce6db9;
+    --roxomeioescuro: #db7de4;
+    --roxoclaro: #ec80e7;
+    --roxoclarinho: #000000;
+    --texto-corpo: "Jersey 25 Charted", sans-serif;
+    --texto-titulo: "Poetsen One", sans-serif;
+    
+}
+
+.cabecalho{
+   background-color: var(--roxoclaro);
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   padding: 12px;
+}
+.cabecalho-img{
+width: 10%;  
+border-radius: 60%;  
+}
+.cabecalho-nav__link{
+  text-decoration: none;
+  font-family: var(--texto--titulo);
+  font-size: 24px;
+  color: var(--roxoclarinho);
+  margin-right: 24px
+}
+.principal-capa{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    gap: 24px;
+    background-image: url(img/fundo.jpg);
+    background-repeat: no-repeat;
+    padding: 24px 12px ;
+}
+.principal-capa__conteudo{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+.principal-capa__titulo{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 32px;
+    color:black;
+    margin-bottom: 12px;
+}
+.principal-capa__texto{
+    font-size: 24px;
+    margin-top: 24px;
+}
+
+.principal-capa__imagem{
+    width: 30%;
+}
