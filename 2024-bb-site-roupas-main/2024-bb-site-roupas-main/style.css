@@ -67,16 +67,3 @@ border-radius: 60%;
 .principal-capa__imagem{
     width: 30%;
 }
-.principal-capa__combotao{
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-}
-.principal-capa__botao{
-    background-color: #e3a1e3;
-    border-radius: 5px;
-    padding: 1em;
-    margin-top: 2em;
-    color: #000000;
-    text-decoration: none;
-}
