@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Jersey+25+Charted&family=Poetsen+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
 *{
     margin: 0;
@@ -7,7 +7,7 @@
 
 body{
     background-color: var(--roxoescuro);
-    color: whitesmoke;
+    color: rgb(0, 0, 0);
     font-family: var(--texto-corpo);
 }
 
@@ -15,8 +15,8 @@ body{
     --roxoescuro: #ce6db9;
     --roxomeioescuro: #db7de4;
     --roxoclaro: #ec80e7;
-    --roxoclarinho: #000000;
-    --texto-corpo: "Jersey 25 Charted", sans-serif;
+    --roxoclarinho: #ffffff;
+    --texto-corpo: "Roboto", sans-serif;
     --texto-titulo: "Poetsen One", sans-serif;
     
 }
@@ -78,12 +78,12 @@ border-radius: 60%;
     padding: 1em;
     margin-top: 2em;
     color:#ec80e7;
-    text-decoration: #db7de4;
+    text-decoration: #000000;
 }
 .botao__secundario{
     background-color: transparent;
     border: 2px solid var(--roxoclaro);
-    color: var(#ce6db9);
+    color: var(#000000);
 }
 .propaganda{
     display: grid;
